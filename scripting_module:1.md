@@ -40,3 +40,40 @@ echo "This script is running in Bash!"
 ...
 - How to Check which Shell You're Using
 Run this in your terminal:
+
+# How to Check Which Shell You're Using
+Or check which shell is currently active:
+C Coursera | Online C...
+Hom
+ps -p
+-o comm=
+Changing Your Default Shell
+You can change your default shell using the chsh command:
+chsh -s /bin/zsh
+Make sure the desired shell is installed before switching.
+# Terminal vs Shell vs Bash - What's the Difference?
+
+| Term | Description |
+|------|--------------|
+| Terminal | A program that gives you access to the shell. It’s the interface where you type commands (e.g., GNOME Terminal, **iTerm2, **Windows Terminal). |
+| Shell | A command-line interpreter that processes commands typed in the terminal and communicates with the operating system. Examples include sh, bash, zsh, fish, etc. |
+| Bash | A specific and widely used shell called Bourne Again Shell. It’s backward-compatible with the original Bourne shell (sh) and includes enhanced features. |
+
+## Analogy
+Think of it like this:
+- The terminal is your steering wheel.
+- The shell (like Bash) is the engine that makes the car move.
+I
+- You type commands into the terminal, which passes them to the *shell (e.g-, Bash), and then the OS does the work.
+
+#Example Commands in Bash via Terminal  
+
+echo "Hello from Bash!" # This runs in the shell (Bash), through the terminal
+
+## Summary Table
+
+| Concept   | Type         | Purpose |
+|------------|--------------|----------|
+| *Terminal* | Application | Provides a window/interface to interact with the shell |
+| *Shell*     | Interpreter | Accepts and executes commands entered by the user |
+| *Bash*      | Shell       | A popular shell with advanced features and scripting capabilities |
